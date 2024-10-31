@@ -1,0 +1,120 @@
+#oss-search-form form {
+	text-align: left;
+	margin-left: 10%;
+}
+.oss-search {
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+	width:70%;
+}
+
+#oss-nav {
+	list-style: none;
+	margin: 0;
+	padding-right: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#oss-nav li {
+	padding-left: 10px;
+}
+
+.oss-nav.oss-nav-radio {
+	margin-left:0;
+}
+.oss-nav.oss-nav-radio li { 
+	list-style-type:none; 
+	padding-left:0;
+}
+
+#oss-nav li a {
+	text-decoration: none;
+}
+
+#oss-nav li:hover {
+	background: #EEEEEE;
+}
+#oss-filter {
+ width:250px;
+ float:left;
+}
+#oss-results{
+
+ overflow:hidden;
+}
+
+.oss-title {
+	  font-size:1.5em;
+	  margin-bottom:5px;
+}
+	  
+
+.oss-autocomplete_link {
+	background-color: #FFFFFF;
+	padding: 2px 6px 2px 6px;
+	color:black;
+}
+
+.oss-autocomplete_link_over {
+	background-color: #99BBFF;
+	padding: 2px 6px 2px 6px;
+}
+
+.oss-autocomplete {
+	margin: 0;
+	float: left;
+	cursor: pointer !important;
+}
+#oss-search-form .oss-autocomplete { margin-top:35px; }
+
+.oss-autocompletelist {
+	background-color: #FFFFFF;
+	text-align: left;
+	z-index: 1000;
+	position: absolute;
+	width: 493px;
+	border: 1px solid #99BBFF;
+}
+
+.search-form .oss-autocompletelist { width:300px; }
+
+.oss-logo {
+	text-align:right;
+}
+.oss-result {
+	margin-top: 15px;
+	border-bottom:1px solid #efefef;
+	padding-bottom:15px;
+}
+.oss-result:last-child {
+    border:none;
+}
+.oss-bold { 
+	font-weight:bold;
+}
+.oss-facet-number-docs {
+	color:#A6A8A6;
+	font-weight: normal;
+	font-size:0.9em;
+}
+.clearer { clear:both; height:0; }
+.oss-result-info { color:#ababab;}
+.oss-filter-title { font-weight:bold; }
+.unavailable_facet { cursor:default; color:#aaa; }
+.oss-nav-radio input[type=checkbox] { cursor:pointer; }
+#oss-filter { margin:0 20px 0 0; }
+#oss-filter #oss-active-filters h3 { margin-top:0; }
+#oss-filter ul { margin:0 0 0 20px; }
+#oss-filter ul.oss-nav { margin-left: 0;}
+#oss-filter ul input[type=checkbox] { display:inline-block; margin-right:4px;  }
+#oss-filter .oss-filter-title, #oss-filter .oss-active-filter { margin-top:24px; }
+#oss-filter .oss-filter-title:first-child { margin-top:0; }
+#oss-filter .oss-nav .oss-facet-changestatus { border-top:1px solid #ededed; margin-top:4px; padding-top:4px; }
+#oss-filter .oss-facetfilter { padding:4px; margin:4px 0 4px 0; width:100%;}
+#oss-filter .oss-hidden-facet { display:none; }
+/* link "see X other values" for facet */
+#oss-filter .oss-seeall { text-align:right; font-size:.9em; font-style:italic; }
+#oss-filter .oss-link-seeall { color:rgb(76, 76, 76); }
